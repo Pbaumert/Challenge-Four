@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Blog</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/logic.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <button id="toggle-mode">Toggle Mode</button>
+        <div class="separator-horizontal"></div>
+        <div class="separator-horizontal secondary"></div>
+        </header>
+        <div class="separator-vertical"></div>
+        <div class="vertical-line"></div>
+        <div class="content">
+            <div class="left-section">
+                <div class="circle">
+                    <h1>My First Blog</h1>
+                </div>
+            </div>
+            <div class="right-section">
+                <form id="blog-form">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="title">Blog Title</label>
+                    <input type="text" id="title" name="title" required>
+                    <label for="content">Blog Content</label>
+                    <textarea id="content" name="content" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
