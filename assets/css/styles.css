@@ -1,0 +1,14 @@
+body.light-mode {
+    background-color: #fff;
+    color: #000;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+header, footer {
+    padding: 10px;
+    text-align: center;
+}
